@@ -1,0 +1,6 @@
+- name: rocky
+  hosts: rocky
+  tasks:
+  - name: task1
+    debug:
+      msg: hello rocky
