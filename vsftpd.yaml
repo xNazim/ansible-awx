@@ -1,6 +1,6 @@
 - name: install vsftpd and start;enable
   gather_facts: false
-  hosts: rocky
+  hosts: linux
   tasks:
   - name: install vsftpd
     package: 

@@ -1,5 +1,5 @@
 - name: Create user and group and fetching something
-  hosts: rocky
+  hosts: linux
   become: true
   tasks:
     - name: Create group
@@ -15,5 +15,5 @@
         
     - name: Fetching data
       fetch:
-        src: /home/ansible/hello.txt
+        src: /etc/hosts
         dest: /tmp/
