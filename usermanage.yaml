@@ -1,6 +1,5 @@
 - name: Create user and group and fetching something
   hosts: linux
-  become: true
   tasks:
     - name: Create group
       group: 
